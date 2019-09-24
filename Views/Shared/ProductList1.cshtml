@@ -1,0 +1,26 @@
+﻿@using Abc.MvcWebUI.Models
+@model IEnumerable<ProductModel>
+
+
+
+<div class="row">
+
+    @foreach (var urun in Model)
+    {
+        <div class="col-md-6 col-lg-4 col-sm-12 mb-3">
+            <div class="card card-list">
+                <img src="/Upload/@urun.Image" class="card-img-top list-image" alt="@urun.Name">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="/Home/Details/@urun.Name" class="title">@urun.Name</a></h4>
+                    <p class="card-text pt-2 description">
+                        @urun.Description
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted product-price"> @urun.Price <i class="fas fa-lira-sign"></i></small>
+                    <a href="/Home/Details/@urun.Id" class="btn btn-dark btn-sm float-right"><i class="btn-details">İncele</i></a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

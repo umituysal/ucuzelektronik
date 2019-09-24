@@ -1,0 +1,14 @@
+﻿@using (Html.BeginForm("List", "Home", FormMethod.Get))
+{
+    <div class="well">
+        <div class="input-group">
+            @Html.TextBox("q", null, new { @class = "form-control" })
+            <span class="input-group-btn">
+                <button class="btn btn-light " type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+}
+

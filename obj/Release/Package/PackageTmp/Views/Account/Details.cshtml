@@ -1,0 +1,80 @@
+﻿@model Abc.MvcWebUI.Models.OrderDetailsModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Sipariş Bilgileri</h2>
+            <hr />
+            <dl class="row">
+
+                <dt class="col-sm-3">Order State</dt>
+                <dd class="col-sm-9">
+                    @if(Model.OrderState == Abc.MvcWebUI.Entity.EnumOrderState.Waiting)
+                    {
+                        <span class="badge-danger">Onay Bekliyor</span>
+                    }
+                    else if(Model.OrderState == Abc.MvcWebUI.Entity.EnumOrderState.Completed)
+                    {
+                    <span class="badge-success">Sipariş tamamlandı</span>
+                    }
+
+                </dd>
+                <dt class="col-sm-3">Order Id</dt>
+                <dd class="col-sm-9">@Model.OrderId</dd>
+                <dt class="col-sm-3">Order Number</dt>
+                <dd class="col-sm-9">@Model.OrderNumber</dd>
+                <dt class="col-sm-3">Total</dt>
+                <dd class="col-sm-9">@Model.Total<i class="fas fa-lira-sign"></i></dd>
+                <dt class="col-sm-3">Order Date</dt>
+                <dd class="col-sm-9">@Model.OrderDate</dd>
+
+                
+                    <dt class="col-sm-3">Adres</dt>
+                    <dd class="col-sm-9">
+                        @Model.AdresBasligi
+                        <hr />
+                        @Model.Adres
+                        <hr />
+                        @Model.Sehir-@Model.Semt-@Model.Mahalle
+                        <br />
+                        @Model.PostaKodu
+                    </dd>
+                <div class="col-sm-3">Product</div>
+                <div class="col-sm-9">
+                    <table class="table table-stripted table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Image</th>
+                                <th >Product Name</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.OrderLines)
+                            {
+                            <tr>
+                                <td><img src="~/Upload/@item.Image" width="70" /></td>
+                                <td>@item.ProductName</td>
+                                <td>@item.Quantity</td>
+                                <td>@item.Price<i class="fas fa-lira-sign"></i></td>
+                                <td><a href="/Home/Details/@item.ProductId" class="btn btn-primary bnt-sm" target="_blank">Detay</a></td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                </div>
+              
+            </dl>
+
+        </div>
+    </div>
+</div>
+

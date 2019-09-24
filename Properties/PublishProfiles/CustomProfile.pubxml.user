@@ -1,0 +1,2491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Bu dosya, Web projenizin yayımlama/paket işlemi tarafından kullanılıyor. MSBuild dosyasını düzenleyerek
+bu işlemin davranışını düzenleyebilirsiniz. Bununla ilgili daha fazla bilgi edinmek için https://go.microsoft.com/fwlink/?LinkID=208121 adresini ziyaret edin. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\ÜMİT\Desktop\Abc</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Abc.MvcWebUI.dll">
+      <publishTime>09/23/2019 12:51:53</publishTime>
+    </File>
+    <File Include="bin/Abc.MvcWebUI.pdb">
+      <publishTime>09/23/2019 12:51:53</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/24/2018 12:47:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/24/2018 12:47:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/24/2018 12:47:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>01/18/2019 20:50:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>01/18/2019 20:50:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>02/13/2015 13:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/13/2015 13:16:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>02/13/2015 13:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 12:19:34</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>09/30/2013 17:36:38</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>09/30/2013 18:15:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Helpers.resources.dll">
+      <publishTime>02/01/2018 12:21:18</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Mvc.resources.dll">
+      <publishTime>02/01/2018 12:16:54</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Razor.resources.dll">
+      <publishTime>02/01/2018 12:17:16</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Webpages.Deployment.resources.dll">
+      <publishTime>02/01/2018 12:21:18</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Webpages.Razor.resources.dll">
+      <publishTime>02/01/2018 12:21:18</publishTime>
+    </File>
+    <File Include="bin/tr/System.Web.Webpages.resources.dll">
+      <publishTime>02/01/2018 12:21:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/.bower.json">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/bower.json">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/CHANGE.md">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/css/fileinput-rtl.css">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/css/fileinput-rtl.min.css">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/css/fileinput.css">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/css/fileinput.min.css">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/img/loading-sm.gif">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/img/loading.gif">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/fileinput.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/fileinput.min.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/ar.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/az.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/bg.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/ca.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/cr.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/cs.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/da.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/de.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/el.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/es.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/et.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/fa.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/fi.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/fr.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/gl.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/hu.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/id.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/it.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/ja.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/kr.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/kz.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/LANG.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/lt.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/nl.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/no.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/pl.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/pt-BR.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/pt.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/ro.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/ru.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/sk.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/sl.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/sv.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/th.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/tr.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/uk.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/vi.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/zh-TW.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/locales/zh.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/plugins/piexif.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/plugins/piexif.min.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/plugins/purify.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/plugins/purify.min.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/plugins/sortable.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/js/plugins/sortable.min.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/LICENSE.md">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/nuget/build.bat">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/nuget/Package.nuspec">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/package.json">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/README.md">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/scss/fileinput-rtl.scss">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/scss/fileinput.scss">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/scss/themes/explorer-fa/theme.scss">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/scss/themes/explorer/theme.scss">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/themes/explorer-fa/theme.css">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/themes/explorer-fa/theme.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/themes/explorer-fa/theme.min.css">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/themes/explorer-fa/theme.min.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/themes/explorer/theme.css">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/themes/explorer/theme.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/themes/explorer/theme.min.css">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/themes/explorer/theme.min.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/themes/fa/theme.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/themes/fa/theme.min.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/themes/gly/theme.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap-fileinput/themes/gly/theme.min.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/.bower.json">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/bower.json">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/CHANGELOG.md">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/css/bootstrap.css">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/js/bootstrap.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/dist/js/npm.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/Gemfile">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/Gemfile.lock">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/grunt/.jshintrc">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/grunt/bs-commonjs-generator.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/grunt/bs-lessdoc-parser.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/grunt/bs-raw-files-generator.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/grunt/change-version.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/grunt/configBridge.json">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/grunt/npm-shrinkwrap.json">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/grunt/sauce_browsers.yml">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/Gruntfile.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/ISSUE_TEMPLATE.md">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/.jscsrc">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/.jshintrc">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/affix.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/alert.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/button.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/carousel.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/collapse.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/dropdown.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/modal.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/popover.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/scrollspy.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/tab.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/tooltip.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/js/transition.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/.csscomb.json">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/.csslintrc">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/alerts.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/badges.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/bootstrap.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/breadcrumbs.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/button-groups.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/buttons.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/carousel.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/close.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/code.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/component-animations.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/dropdowns.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/forms.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/glyphicons.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/grid.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/input-groups.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/jumbotron.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/labels.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/list-group.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/media.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/alerts.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/background-variant.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/border-radius.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/buttons.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/center-block.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/clearfix.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/forms.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/gradients.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/grid-framework.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/grid.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/hide-text.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/image.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/labels.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/list-group.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/nav-divider.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/nav-vertical-align.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/opacity.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/pagination.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/panels.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/progress-bar.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/reset-filter.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/reset-text.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/resize.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/responsive-visibility.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/size.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/tab-focus.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/table-row.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/text-emphasis.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/text-overflow.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/mixins/vendor-prefixes.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/modals.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/navbar.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/navs.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/normalize.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/pager.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/pagination.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/panels.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/popovers.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/print.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/progress-bars.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/responsive-embed.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/responsive-utilities.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/scaffolding.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/tables.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/theme.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/thumbnails.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/tooltip.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/type.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/utilities.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/variables.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/less/wells.less">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/LICENSE">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/nuget/bootstrap.less.nuspec">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/nuget/bootstrap.nuspec">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/nuget/MyGet.ps1">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/package.js">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/package.json">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/bootstrap/README.md">
+      <publishTime>07/25/2019 16:46:17</publishTime>
+    </File>
+    <File Include="bower_components/jquery/.bower.json">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/AUTHORS.txt">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/bower.json">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/dist/core.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/dist/jquery.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/dist/jquery.min.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/dist/jquery.min.map">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/dist/jquery.slim.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/dist/jquery.slim.min.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/dist/jquery.slim.min.map">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/external/sizzle/dist/sizzle.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/external/sizzle/dist/sizzle.min.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/external/sizzle/dist/sizzle.min.map">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/external/sizzle/LICENSE.txt">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/LICENSE.txt">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/README.md">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/.eslintrc.json">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/jsonp.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/load.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/parseXML.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/script.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/var/location.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/var/nonce.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/var/rquery.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/ajax/xhr.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/attributes.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/attributes/attr.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/attributes/classes.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/attributes/prop.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/attributes/support.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/attributes/val.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/callbacks.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/access.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/DOMEval.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/init.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/nodeName.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/parseHTML.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/ready-no-deferred.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/ready.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/readyException.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/stripAndCollapse.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/support.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/core/var/rsingleTag.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/addGetHookIf.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/adjustCSS.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/curCSS.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/hiddenVisibleSelectors.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/showHide.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/support.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/var/cssExpand.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/var/getStyles.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/var/isHiddenWithinTree.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/var/rmargin.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/var/rnumnonpx.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/css/var/swap.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/data.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/data/Data.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/data/var/acceptData.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/data/var/dataPriv.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/data/var/dataUser.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/deferred.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/deferred/exceptionHook.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/deprecated.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/dimensions.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/effects.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/effects/animatedSelector.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/effects/Tween.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/event.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/event/ajax.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/event/alias.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/event/focusin.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/event/support.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/event/trigger.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/exports/amd.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/exports/global.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/jquery.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation/buildFragment.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation/getAll.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation/setGlobalEval.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation/support.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation/var/rcheckableType.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation/var/rscriptType.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation/var/rtagName.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation/wrapMap.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/manipulation/_evalUrl.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/offset.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/queue.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/queue/delay.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/selector-native.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/selector-sizzle.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/selector.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/serialize.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/traversing.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/traversing/findFilter.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/traversing/var/dir.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/traversing/var/rneedsContext.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/traversing/var/siblings.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/arr.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/class2type.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/concat.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/document.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/documentElement.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/fnToString.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/getProto.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/hasOwn.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/indexOf.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/ObjectFunctionString.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/pnum.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/push.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/rcssNum.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/rnothtmlwhite.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/slice.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/support.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/var/toString.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="bower_components/jquery/src/wrap.js">
+      <publishTime>07/25/2019 16:46:18</publishTime>
+    </File>
+    <File Include="Content/ckeditor/adapters/jquery.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/build-config.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/CHANGES.md">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/ckeditor.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/config.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/contents.css">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/af.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ar.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/az.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/bg.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/bn.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/bs.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ca.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/cs.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/cy.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/da.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/de-ch.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/de.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/el.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/en-au.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/en-ca.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/en-gb.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/en.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/eo.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/es-mx.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/es.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/et.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/eu.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/fa.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/fi.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/fo.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/fr-ca.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/fr.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/gl.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/gu.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/he.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/hi.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/hr.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/hu.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/id.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/is.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/it.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ja.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ka.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/km.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ko.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ku.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/lt.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/lv.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/mk.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/mn.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ms.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/nb.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/nl.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/no.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/oc.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/pl.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/pt-br.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/pt.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ro.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ru.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/si.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/sk.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/sl.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/sq.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/sr-latn.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/sr.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/sv.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/th.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/tr.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/tt.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/ug.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/uk.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/vi.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/zh-cn.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/lang/zh.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/LICENSE.md">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/af.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/az.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/da.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/de.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/el.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/en.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/es.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/et.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/he.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/id.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/it.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/km.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/no.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/si.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/th.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/about/dialogs/about.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/about/dialogs/logo_ckeditor.png">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/clipboard/dialogs/paste.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/dialog/dialogDefinition.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/icons.png">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/icons_hidpi.png">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/image/dialogs/image.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/image/images/noimage.png">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/link/dialogs/anchor.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/link/dialogs/link.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/link/images/anchor.png">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/link/images/hidpi/anchor.png">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/magicline/images/hidpi/icon.png">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/magicline/images/icon-rtl.png">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/magicline/images/icon.png">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/pastefromword/filter/default.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/CHANGELOG.md">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/dialogs/dialog.css">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/dialogs/options.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/dialogs/toolbar.css">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/LICENSE.md">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/README.md">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/af.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ar.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/az.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/bg.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ca.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/cs.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/cy.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/da.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/de.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/el.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/en-au.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/en.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/eo.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/es.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/et.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/eu.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/fa.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/fi.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/fr.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/gl.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/he.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/hr.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/hu.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/id.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/it.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ja.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/km.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ko.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ku.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/lt.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/lv.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/nb.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/nl.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/no.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/oc.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/pl.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/pt.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ro.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ru.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/si.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/sk.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/sl.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/sq.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/sr-latn.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/sr.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/sv.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/th.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/tr.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/tt.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/ug.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/uk.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/vi.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/zh.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/specialchar/dialogs/specialchar.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/table/dialogs/table.js">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/tableselection/styles/tableselection.css">
+      <publishTime>07/30/2019 13:52:54</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/tabletools/dialogs/tableCell.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/widget/images/handle.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/dialogs/ciframe.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/dialogs/tmpFrameset.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/dialogs/wsc.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/dialogs/wsc.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/dialogs/wsc_ie.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/LICENSE.md">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/README.md">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/README.md">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/css/samples.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/img/github-top.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/img/header-bg.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/img/header-separator.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/img/logo.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/img/logo.svg">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/img/navigation-tip.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/index.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/js/sample.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/js/sf.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/ajax.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/api.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/appendto.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/assets/inlineall/logo.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/assets/posteddata.php">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/assets/sample.jpg">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/assets/uilanguages/languages.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/datafiltering.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/dialog/assets/my_dialog.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/dialog/dialog.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/divreplace.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/enterkey/enterkey.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/htmlwriter/outputforflash.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/htmlwriter/outputhtml.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/index.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/inlineall.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/inlinebycode.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/inlinetextarea.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/jquery.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/magicline/magicline.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/readonly.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/replacebyclass.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/replacebycode.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/sample.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/sample.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/sample_posteddata.php">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/tabindex.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/toolbar/toolbar.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/uicolor.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/uilanguages.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/wysiwygarea/fullpage.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/old/xhtmlstyle.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/css/fontello.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/font/config.json">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/font/fontello.eot">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/font/fontello.svg">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/font/fontello.ttf">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/font/fontello.woff">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/index.html">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/dialog.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/dialog_ie.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/dialog_ie8.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/dialog_iequirks.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/editor.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/editor_gecko.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/editor_ie.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/editor_ie8.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/editor_iequirks.css">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/icons.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/icons_hidpi.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/arrow.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/close.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/hidpi/close.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/hidpi/lock.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/hidpi/refresh.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/lock-open.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/lock.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/refresh.png">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/images/spinner.gif">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/skins/moono-lisa/readme.md">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/styles.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/ckeditor/vendor/promise.js">
+      <publishTime>07/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>07/27/2019 23:07:59</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/25/2019 19:15:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>06/25/2019 19:19:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>06/25/2019 19:19:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>06/25/2019 19:19:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>06/27/2019 10:00:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>06/27/2019 10:00:43</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>06/27/2019 10:00:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>06/27/2019 10:00:44</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>06/25/2019 19:19:32</publishTime>
+    </File>
+    <File Include="theme/css/style.css">
+      <publishTime>08/07/2019 08:55:32</publishTime>
+    </File>
+    <File Include="theme/home.html">
+      <publishTime>06/25/2019 19:38:52</publishTime>
+    </File>
+    <File Include="theme/img/1.jpg">
+      <publishTime>06/25/2019 19:16:49</publishTime>
+    </File>
+    <File Include="theme/img/2.png">
+      <publishTime>07/24/2019 13:56:39</publishTime>
+    </File>
+    <File Include="theme/img/bg.jpeg">
+      <publishTime>07/24/2019 13:44:45</publishTime>
+    </File>
+    <File Include="theme/img/kamera.jpg">
+      <publishTime>06/25/2019 19:16:49</publishTime>
+    </File>
+    <File Include="theme/js/app.js">
+      <publishTime>08/22/2019 21:02:16</publishTime>
+    </File>
+    <File Include="theme/js/holder.js">
+      <publishTime>06/25/2019 19:16:49</publishTime>
+    </File>
+    <File Include="theme/product.html">
+      <publishTime>06/25/2019 19:16:49</publishTime>
+    </File>
+    <File Include="theme/productDetails.html">
+      <publishTime>06/25/2019 19:16:49</publishTime>
+    </File>
+    <File Include="Upload/1.png">
+      <publishTime>07/25/2019 00:06:35</publishTime>
+    </File>
+    <File Include="Upload/2.jpg">
+      <publishTime>07/25/2019 00:06:35</publishTime>
+    </File>
+    <File Include="Upload/3.jpg">
+      <publishTime>07/25/2019 00:06:35</publishTime>
+    </File>
+    <File Include="Upload/4.jpg">
+      <publishTime>07/27/2019 10:26:02</publishTime>
+    </File>
+    <File Include="Upload/bilgisayar1.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/bilgisayar2.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/bilgisayar3.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/bulasik.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/buzdolabi.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/camasir.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/kahve1.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/kahve2.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/kahve3.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/kamera.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/kamera2.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/kamera3.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/telefon1.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/telefon2.jpg">
+      <publishTime>07/02/2019 15:44:19</publishTime>
+    </File>
+    <File Include="Upload/telefon3.jpg">
+      <publishTime>07/02/2019 15:44:15</publishTime>
+    </File>
+    <File Include="Views/About/Create.cshtml">
+      <publishTime>08/07/2019 10:43:30</publishTime>
+    </File>
+    <File Include="Views/About/Delete.cshtml">
+      <publishTime>07/23/2019 17:01:22</publishTime>
+    </File>
+    <File Include="Views/About/Details.cshtml">
+      <publishTime>07/23/2019 15:12:02</publishTime>
+    </File>
+    <File Include="Views/About/Edit.cshtml">
+      <publishTime>08/07/2019 10:47:08</publishTime>
+    </File>
+    <File Include="Views/About/Index.cshtml">
+      <publishTime>07/30/2019 12:17:11</publishTime>
+    </File>
+    <File Include="Views/Account/Details.cshtml">
+      <publishTime>06/30/2019 21:01:27</publishTime>
+    </File>
+    <File Include="Views/Account/Error.cshtml">
+      <publishTime>07/30/2019 09:04:49</publishTime>
+    </File>
+    <File Include="Views/Account/Index.cshtml">
+      <publishTime>06/30/2019 20:20:41</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>08/07/2019 14:49:37</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>07/24/2019 20:14:49</publishTime>
+    </File>
+    <File Include="Views/Admin/Index.cshtml">
+      <publishTime>07/29/2019 21:02:59</publishTime>
+    </File>
+    <File Include="Views/Cart/Checkout.cshtml">
+      <publishTime>07/24/2019 19:58:17</publishTime>
+    </File>
+    <File Include="Views/Cart/Completed.cshtml">
+      <publishTime>07/24/2019 20:02:58</publishTime>
+    </File>
+    <File Include="Views/Cart/Index.cshtml">
+      <publishTime>07/28/2019 17:15:24</publishTime>
+    </File>
+    <File Include="Views/Cart/Summary.cshtml">
+      <publishTime>06/30/2019 15:35:59</publishTime>
+    </File>
+    <File Include="Views/Category/Create.cshtml">
+      <publishTime>06/27/2019 11:18:20</publishTime>
+    </File>
+    <File Include="Views/Category/Delete.cshtml">
+      <publishTime>06/27/2019 11:18:18</publishTime>
+    </File>
+    <File Include="Views/Category/Details.cshtml">
+      <publishTime>06/27/2019 10:00:40</publishTime>
+    </File>
+    <File Include="Views/Category/Edit.cshtml">
+      <publishTime>06/27/2019 11:18:03</publishTime>
+    </File>
+    <File Include="Views/Category/Index.cshtml">
+      <publishTime>06/27/2019 11:17:56</publishTime>
+    </File>
+    <File Include="Views/Contact/Create.cshtml">
+      <publishTime>07/23/2019 18:18:32</publishTime>
+    </File>
+    <File Include="Views/Contact/Delete.cshtml">
+      <publishTime>07/23/2019 18:18:33</publishTime>
+    </File>
+    <File Include="Views/Contact/Details.cshtml">
+      <publishTime>07/23/2019 18:45:29</publishTime>
+    </File>
+    <File Include="Views/Contact/Edit.cshtml">
+      <publishTime>07/23/2019 18:18:35</publishTime>
+    </File>
+    <File Include="Views/Contact/Index.cshtml">
+      <publishTime>07/23/2019 18:45:10</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>07/28/2019 13:34:03</publishTime>
+    </File>
+    <File Include="Views/Home/Completed.cshtml">
+      <publishTime>09/23/2019 10:38:19</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>09/23/2019 11:46:48</publishTime>
+    </File>
+    <File Include="Views/Home/Details.cshtml">
+      <publishTime>07/25/2019 00:42:01</publishTime>
+    </File>
+    <File Include="Views/Home/GetCategories.cshtml">
+      <publishTime>09/17/2019 15:35:39</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/06/2019 13:04:48</publishTime>
+    </File>
+    <File Include="Views/Home/List.cshtml">
+      <publishTime>08/06/2019 13:10:47</publishTime>
+    </File>
+    <File Include="Views/Order/Details.cshtml">
+      <publishTime>07/01/2019 13:14:43</publishTime>
+    </File>
+    <File Include="Views/Order/Index.cshtml">
+      <publishTime>07/22/2019 22:10:16</publishTime>
+    </File>
+    <File Include="Views/Pagination/pager.cshtml">
+      <publishTime>07/27/2019 23:23:26</publishTime>
+    </File>
+    <File Include="Views/Product/Create.cshtml">
+      <publishTime>07/27/2019 10:03:32</publishTime>
+    </File>
+    <File Include="Views/Product/Delete.cshtml">
+      <publishTime>07/22/2019 22:00:57</publishTime>
+    </File>
+    <File Include="Views/Product/Details.cshtml">
+      <publishTime>07/22/2019 22:00:57</publishTime>
+    </File>
+    <File Include="Views/Product/Edit.cshtml">
+      <publishTime>07/23/2019 21:41:59</publishTime>
+    </File>
+    <File Include="Views/Product/Index.cshtml">
+      <publishTime>08/01/2019 09:12:55</publishTime>
+    </File>
+    <File Include="Views/RoleAdmin/Create.cshtml">
+      <publishTime>07/29/2019 20:59:13</publishTime>
+    </File>
+    <File Include="Views/RoleAdmin/Edit.cshtml">
+      <publishTime>07/30/2019 12:14:45</publishTime>
+    </File>
+    <File Include="Views/RoleAdmin/Index.cshtml">
+      <publishTime>07/29/2019 21:02:02</publishTime>
+    </File>
+    <File Include="Views/Shared/ProductList.cshtml">
+      <publishTime>08/06/2019 13:08:57</publishTime>
+    </File>
+    <File Include="Views/Shared/ProductList1.cshtml">
+      <publishTime>08/06/2019 13:07:11</publishTime>
+    </File>
+    <File Include="Views/Shared/Search.cshtml">
+      <publishTime>07/27/2019 22:39:20</publishTime>
+    </File>
+    <File Include="Views/Shared/_AdminLayout.cshtml">
+      <publishTime>07/29/2019 20:58:13</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>08/22/2019 21:00:36</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>06/30/2019 16:59:36</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>07/30/2019 12:51:16</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>06/25/2019 19:19:26</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/07/2019 10:47:10</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

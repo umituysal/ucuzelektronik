@@ -1,0 +1,92 @@
+﻿@model Abc.MvcWebUI.Models.OrderDetailsModel
+    @using Abc.MvcWebUI.Entity
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Sipariş Bilgileri</h2>
+            <hr />
+                @if (TempData["message"] != null)
+                {
+                    <div class="alert alert-success">
+                        @TempData["message"]
+                    </div>
+                }
+                    <dl class="row">
+                        <dt class="col-sm-3">Kullanıcı Adı</dt>
+                        <dd class="col-sm-9">@Model.UserName</dd>
+                        <dt class="col-sm-3">Order State</dt>
+                        <dd class="col-sm-9">
+                            @using (Html.BeginForm("UpdateOrderState", "Order", FormMethod.Post))
+                            {
+                                @Html.HiddenFor(i => i.OrderId)
+                                <dl class="row">
+                                    <dt class="col-sm-8">
+                                        @Html.EnumDropDownListFor(i => i.OrderState, "Select Order State", new { @class = "form-control" })
+                                    </dt>
+                                    <dd class="col-sm-4">
+                                        <button class="btn btn-primary btn-sm" value="Update" type="submit">Güncelle</button>
+                                    </dd>
+                                </dl>
+                            }
+                        </dd>
+                        <dt class="col-sm-3">Order Id</dt>
+                        <dd class="col-sm-9">@Model.OrderId</dd>
+                        <dt class="col-sm-3">Order Number</dt>
+                        <dd class="col-sm-9">@Model.OrderNumber</dd>
+                        <dt class="col-sm-3">Total</dt>
+                        <dd class="col-sm-9">@Model.Total<i class="fas fa-lira-sign"></i></dd>
+                        <dt class="col-sm-3">Order Date</dt>
+                        <dd class="col-sm-9">@Model.OrderDate</dd>
+
+
+                        <dt class="col-sm-3">Adres</dt>
+                        <dd class="col-sm-9">
+                            @Model.AdresBasligi
+                            <hr />
+                            @Model.Adres
+                            <hr />
+                            @Model.Sehir-@Model.Semt-@Model.Mahalle
+                            <br />
+                            @Model.PostaKodu
+                        </dd>
+                        <div class="col-sm-3">Product</div>
+                        <div class="col-sm-9">
+                            <table class="table table-stripted table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Image</th>
+                                        <th>Product Name</th>
+                                        <th>Quantity</th>
+                                        <th>Price</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.OrderLines)
+                                    {
+                                        <tr>
+                                            <td><img src="~/Upload/@item.Image" width="70" /></td>
+                                            <td>@item.ProductName</td>
+                                            <td>@item.Quantity</td>
+                                            <td>@item.Price<i class="fas fa-lira-sign"></i></td>
+                                            <td><a href="/Home/Details/@item.ProductId" class="btn btn-primary bnt-sm" target="_blank">Detay</a></td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </dl>
+
+        </div>
+    </div>
+</div>
+
+
+

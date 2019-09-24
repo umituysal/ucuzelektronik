@@ -1,0 +1,29 @@
+﻿
+@model PagedList.IPagedList<Abc.MvcWebUI.Models.ProductModel>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-4">Kaçırılmayacak İndirimler!</h1>
+        <p class="lead">
+            Bütün elektronik ürünlerde indirimleri kaçırmak istemiyorsan daha ne duruyorsun hadi incele!
+        </p>
+        @*<a class="btn btn-dark" href="#" role="button"><small>İncele</small></a>*@
+    </div>
+</div>
+<div class="container pb-5">
+
+    @Html.Partial("ProductList1", Model)
+    @*<div class="page-header">
+        <span class="page-text"> Page</span> @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)  <span class="page-text"> of</span> @Model.PageCount
+    </div>*@
+    <div class="page-number">
+        @Html.PagedListPager(Model, page => Url.Action("Index",
+            new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+    </div>
+</div>
+
+ 

@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Abc.MvcWebUI.Entity.Category>
+@{
+    var selectedCategory = Url.RequestContext.RouteData.Values["id"];//burada listden sonra gelen id selectedcategory atanır if döngüsünde active edilir.
+}
+<ul class="list-group">
+    <li> <a href="/Home/List" class="list-group-item ">Tüm Kategoriler</a></li>
+    @foreach (var item in Model)
+    {
+        if (selectedCategory != null)
+        {
+            if (item.Id == int.Parse(selectedCategory.ToString()))
+            {
+                <li> <a class="list-group-item active" href="/Home/List/@item.Id">@item.Name</a></li>
+            }
+            else
+            {
+                <li> <a class="list-group-item " href="/Home/List/@item.Id">@item.Name</a></li>
+            }
+        }
+        else
+        {
+            <li> <a class="list-group-item" href="/Home/List/@item.Id">@item.Name</a></li>
+        }
+
+    }
+</ul>
